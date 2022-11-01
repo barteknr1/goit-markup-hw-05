@@ -59,7 +59,9 @@
           <h1 class="index-main-text">
             EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
           </h1>
-          <button class="button" type="button">Zamów usługe</button>
+          <button class="button" type="button" data-modal-open>
+            Zamów usługe
+          </button>
         </div>
       </section>
       <section class="section">
@@ -143,21 +145,30 @@
           <h2 class="main-header">Czym się zajmujemy</h2>
           <ul class="main-pictures list">
             <li>
-              <figure>
+              <figure class="index-jobs">
                 <img src=images/index-main-header-keyboard.jpg width="370"
                 height="294" alt="Programowanie">
+                <figcaption class="index-jobs-label">
+                  <h5>Aplikacje komputerowe</h5>
+                </figcaption>
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="index-jobs">
                 <img src=images/index-main-header-smartphone.jpg width="370"
                 height="294" alt="Programowanie ze smartfonem">
+                <figcaption class="index-jobs-label">
+                  <h5>Aplikacje mobilne</h5>
+                </figcaption>
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="index-jobs">
                 <img src=images/index-main-header-tablet.jpg width="370"
                 height="294" alt="Paleta kolorów na tablecie">
+                <figcaption class="index-jobs-label">
+                  <h5>Rozwiązania graficzne</h5>
+                </figcaption>
               </figure>
             </li>
           </ul>
@@ -177,7 +188,7 @@
                       <li class="caption">John Doe</li>
                       <li class="caption-gray">Product Designer</li>
                     </ul>
-                    <ul class="social-links">
+                    <div class="social-links">
                       <svg class="social-link" width="44px" height="44px">
                         <use
                           width="20px"
@@ -214,7 +225,7 @@
                           href="./images/icons.svg#icon-linkedin"
                         ></use>
                       </svg>
-                    </ul>
+                    </div>
                   </figcaption>
                 </figure>
               </div>
@@ -229,7 +240,7 @@
                       <li class="caption">John Doe</li>
                       <li class="caption-gray">Frontend developer</li>
                     </ul>
-                    <ul class="social-links">
+                    <div class="social-links">
                       <svg class="social-link" width="44px" height="44px">
                         <use
                           width="20px"
@@ -266,7 +277,7 @@
                           href="./images/icons.svg#icon-linkedin"
                         ></use>
                       </svg>
-                    </ul>
+                    </div>
                   </figcaption>
                 </figure>
               </div>
@@ -281,7 +292,7 @@
                       <li class="caption">John Doe</li>
                       <li class="caption-gray">Marketing</li>
                     </ul>
-                    <ul class="social-links">
+                    <div class="social-links">
                       <svg class="social-link" width="44px" height="44px">
                         <use
                           width="20px"
@@ -318,7 +329,7 @@
                           href="./images/icons.svg#icon-linkedin"
                         ></use>
                       </svg>
-                    </ul>
+                    </div>
                   </figcaption>
                 </figure>
               </div>
@@ -333,7 +344,7 @@
                       <li class="caption">John Doe</li>
                       <li class="caption-gray">UI Designer</li>
                     </ul>
-                    <ul class="social-links">
+                    <div class="social-links">
                       <svg class="social-link" width="44px" height="44px">
                         <use
                           width="20px"
@@ -370,7 +381,7 @@
                           href="./images/icons.svg#icon-linkedin"
                         ></use>
                       </svg>
-                    </ul>
+                    </div>
                   </figcaption>
                 </figure>
               </div>
@@ -383,80 +394,44 @@
           <h2 class="main-header">Nasi klienci</h2>
           <ul class="clients">
             <li>
-              <a href="#">
+              <a class="index-client-link" href="#">
                 <svg class="client" width="170px" height="92px">
-                  <use
-                    width="106px"
-                    height="60px"
-                    x="32"
-                    y="16"
-                    href="./images/icons.svg#icon-index-client-first"
-                  ></use>
+                  <use href="./images/icons.svg#icon-index-client-first"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a class="index-client-link" href="#">
                 <svg class="client" width="170px" height="92px">
-                  <use
-                    width="106px"
-                    height="60px"
-                    x="32"
-                    y="16"
-                    href="./images/icons.svg#icon-index-client-second"
-                  ></use>
+                  <use href="./images/icons.svg#icon-index-client-second"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a class="index-client-link" href="#">
                 <svg class="client" width="170px" height="92px">
-                  <use
-                    width="106px"
-                    height="60px"
-                    x="32"
-                    y="16"
-                    href="./images/icons.svg#icon-index-client-third"
-                  ></use>
+                  <use href="./images/icons.svg#icon-index-client-third"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a class="index-client-link" href="#">
                 <svg class="client" width="170px" height="92px">
-                  <use
-                    width="106px"
-                    height="60px"
-                    x="32"
-                    y="16"
-                    href="./images/icons.svg#icon-index-client-fourth"
-                  ></use>
+                  <use href="./images/icons.svg#icon-index-client-fourth"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a class="index-client-link" href="#">
                 <svg class="client" width="170px" height="92px">
-                  <use
-                    width="106px"
-                    height="60px"
-                    x="32"
-                    y="16"
-                    href="./images/icons.svg#icon-index-client-fifth"
-                  ></use>
+                  <use href="./images/icons.svg#icon-index-client-fifth"></use>
                 </svg>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a class="index-client-link" href="#">
                 <svg class="client" width="170px" height="92px">
-                  <use
-                    width="106px"
-                    height="60px"
-                    x="32"
-                    y="16"
-                    href="./images/icons.svg#icon-index-client-sixth"
-                  ></use>
+                  <use href="./images/icons.svg#icon-index-client-sixth"></use>
                 </svg>
               </a>
             </li>
@@ -495,7 +470,7 @@
         </div>
         <div class="footer-social">
           <h4 class="footer-header">Dołącz do nas</h4>
-          <ul>
+          <div>
             <svg class="footer-social-link" width="44px" height="44px">
               <use
                 width="20px"
@@ -532,7 +507,7 @@
                 href="./images/icons.svg#icon-linkedin"
               ></use>
             </svg>
-          </ul>
+          </div>
         </div>
       </div>
     </footer>
