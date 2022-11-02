@@ -489,6 +489,12 @@ body {
   list-style: none;
   gap: 30px;
 }
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: scale(3);
+}
 .backdrop {
   position: fixed;
   display: flex;
@@ -496,14 +502,8 @@ body {
   height: 100%;
   left: 0;
   top: 0;
-  transition: 0.3s;
+  transition: 300ms;
   background-color: rgba(0, 0, 0, 0.2);
-}
-.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
-  transform: scale(4);
 }
 .modal {
   position: relative;
